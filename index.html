@@ -15,6 +15,7 @@
 <body>
   <nav>
     <div class="nav-wrapper">
+      <button data-target="modal1" class="btn modal-trigger">More Info</button>
       <a href="./index.html" class="brand-logo center">
         <svg width="38%" height="38%" version="1.1" viewBox="0 0 129.86946 73.537989" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <g transform="translate(-1.364 -59.726)" fill="white">
@@ -28,6 +29,9 @@
       </a>
     </div>
   </nav>
+  <div class="row">
+    <div id="lineDrawing">
+      <h4 class="desc center white-text">A Planting Planning Tool for the Urban Grower</h4>
 
   <div id="lineDrawing">
     <h4 class="desc center white-text">A Planting Planning Tool for the Urban Grower</h4>
@@ -43,10 +47,21 @@
     </svg>
   </div>
 
-  <article class="login-signup-container">
-    <div class="login-signup"></div>
-    <div class="login-signup-error"></div>
-  </article>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>What is Gro.City?</h4>
+        <p>For those that live in the city, growing plants can be tough if not impossible. Not only is it challenging to manage another living thing, but how do you even know if the plants you're interested in will grow in your apartment?
+
+        This is where Gro.City comes in. This platform allows you to search for plants based on specific growing criteria (ex. moisture, sun, temperature requirements, and more) and then save those plants to boards connected to specific projects! Say I wanted to start a balcony planter. First, I can create a board called "Balcony Planter," then search for plants that will grow in those conditions to reference later!
+
+      Growing in the city has never been easier with Gro.City!</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
 </body>
